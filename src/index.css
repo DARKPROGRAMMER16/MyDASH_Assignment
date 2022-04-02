@@ -1,0 +1,32 @@
+.App {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.graph {
+  width: 55vw;
+  margin: 0 auto;
+}
+
+.legends {
+  width: 300px;
+}
+
+.legends li.legend {
+  list-style: none;
+  display: inline-flex;
+  width: 50%;
+}
+
+.legends li.legend .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
